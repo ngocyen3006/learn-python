@@ -1,7 +1,7 @@
 # arr = list(map(int, input().split()))
 # arr = list(input().split())
 # arr = range(1, 10)
-arr = [1, -22, 3 , 4 , 5]
+arr = [1, 2, 3 , 4 , 5]
 print(arr)
 
 from functools import reduce
