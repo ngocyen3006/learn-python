@@ -1,7 +1,7 @@
 # arr = list(map(int, input().split()))
 # arr = list(input().split())
 # arr = range(1, 10)
-arr = []
+arr = [1, 2, 3 , 4 , 5]
 print(arr)
 
 from functools import reduce
@@ -78,7 +78,7 @@ def anyMatch(test, arr):
     if arr == None or arr == []:
         return None
 
-    return reduce((lambda x, y: x or (y if test(y) else False)), arr, True)
+    return reduce((lambda x, y: x or (y if test(y) else False)), arr, False)
 
 
 print(f"anyMatch(negative): {anyMatch(lambda x: x < 0, arr)}")
