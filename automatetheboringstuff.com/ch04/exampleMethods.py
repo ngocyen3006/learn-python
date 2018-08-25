@@ -55,4 +55,4 @@ print(charSort)  # ['Alice', 'Bob', 'Carol', 'ants', 'badgers', 'cats']
 
 alphabet = ['c', 'a', 'z', 'A', 'Z', 'B']
 alphabet.sort(key=str.lower)
-print(alphabet) # ['a', 'A', 'B', 'c', 'z', 'Z']
+print(alphabet)  # ['a', 'A', 'B', 'c', 'z', 'Z']
