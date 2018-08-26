@@ -1,13 +1,16 @@
+import copy
+
+
 def comma(arr):
-    string = "'"
-    for i in range(0, len(arr)):
-        if i == (len(arr) - 1):
-            string = string + 'and ' + arr[-1] + "'."
-        else:
-            string = string + arr[i] + ", "
+    if arr == None or arr == []:
+        return None
+    else:
+        temp = copy.copy(arr)
+        del temp[-1]
+        string = "'" + ", ".join(temp) + ", and " + arr[-1] + "'"
     return string
 
 
-spam = ['apples', 'bananas', 'tofu', 'cats', 'dogs']
+spam = ['apples', 'bananas', 'tofu', 'cats']
 result = comma(spam)
 print(result)
