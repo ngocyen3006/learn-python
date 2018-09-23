@@ -8,9 +8,7 @@ tableData = [['apples', 'oranges', 'cherries', 'banana'],
 def maxWidths(tableData):
     colWidths = []
     for i in tableData:
-        lenItems = []
-        for j in i:
-            lenItems = lenItems + [len(j)]
+        lenItems = [len(j) for j in i]
         colWidths = colWidths + [max(lenItems)]
     return colWidths
 
