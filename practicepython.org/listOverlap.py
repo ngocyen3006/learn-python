@@ -1,4 +1,4 @@
-def sortArray(a):
+def sortArray(a):  # can use set(a)
     b = []
     for i in range(len(a)):
         if a == []:
@@ -20,4 +20,11 @@ def overlap(a, b):
 
 a = [1, 5, 3, 4, 1, 6, 2, 1]
 b = [9, 10, 8, 5, 7, 6, 2, 11, 14, 2, 2, 3, 4, 9, 8]
+
+print(set(a))
+
+print(set(a).intersection(set(b)))
+
+print(set(a).union(set(b)))
+
 print(overlap(a, b))
