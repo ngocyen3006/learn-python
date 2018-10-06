@@ -6,13 +6,12 @@ def rockPaperScissors(p1, p2):
          "scissors beats paper",
          "paper beats rock"]
     winner = 0
-    for i in range(3):
-        if p1 == p2:
-            winner = winner
-        elif p1 + " beats " + p2 in a:
-            winner = winner + 1
-        else:
-            winner = winner - 1
+    if p1 == p2:
+        winner = winner
+    elif p1 + " beats " + p2 in a:
+        winner = winner + 1
+    else:
+        winner = winner - 1
 
     if winner == 0:
         return "Draw."
