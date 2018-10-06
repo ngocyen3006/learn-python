@@ -18,6 +18,11 @@ class TestRocKPaperScissors(unittest.TestCase):
         self.assertEqual(rockPaperScissors('paper', 'paper'), "Draw.")
         self.assertEqual(rockPaperScissors('scissors', 'scissors'), "Draw.")
 
+    def test_error(self):
+        self.assertEqual(rockPaperScissors("a", "rock"), "Error!")
+        self.assertEqual(rockPaperScissors("rock", "a"), "Error!")
+        self.assertEqual(rockPaperScissors("a", "b"), "Error!")
+
 
 if __name__ == '__main__':
     unittest.main()
