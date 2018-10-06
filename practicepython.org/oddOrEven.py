@@ -1,3 +1,5 @@
+# http://www.practicepython.org/exercise/2014/02/05/02-odd-or-even.html
+
 def oddevenNumer(n):
     if n % 4 == 0:
         return 0

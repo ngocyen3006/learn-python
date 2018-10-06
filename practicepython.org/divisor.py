@@ -1,3 +1,5 @@
+# http://www.practicepython.org/exercise/2014/02/26/04-divisors.html
+
 def divisor(n):
     arr = []
     for i in range(1, n + 1):

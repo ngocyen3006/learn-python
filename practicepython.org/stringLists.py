@@ -1,3 +1,5 @@
+# http://www.practicepython.org/exercise/2014/03/12/06-string-lists.html
+
 def isPalinrome(s):
     r = ''.join(reversed(s))
     if r == s:
