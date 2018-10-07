@@ -1,3 +1,5 @@
+# http://www.practicepython.org/exercise/2014/04/25/12-list-ends.html
+
 import random
 
 a = random.sample(range(20), 7)

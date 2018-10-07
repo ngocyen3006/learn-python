@@ -1,3 +1,5 @@
+# http://www.practicepython.org/exercise/2014/05/15/14-list-remove-duplicates.html
+
 def removeDuplicates1(arr):
     if arr == [] or arr == None:
         return arr
