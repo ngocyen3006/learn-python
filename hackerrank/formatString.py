@@ -15,4 +15,4 @@ def print_formatted(number):
             "{0:{width}d} {0:{width}o} {0:{width}X} {0:{width}b}".format(i, width=width))
 
 
-result = print_formatted(n)
+print_formatted(n)
