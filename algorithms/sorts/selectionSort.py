@@ -1,7 +1,10 @@
 def selectionSort(a):
-    for i in range(len(a)):
-        minA = min(a[i:])
-        indexM = a.index(minA, i)
-        if a[i] != minA:
-            a[indexM] = a[i]
-            a[i] = minA
+    for i in range(len(a) - 1):
+        min = i
+        for j in range(i + 1, len(a)):
+            if a[j] < a[min]:
+                min = j
+        if min != i:
+            t = a[i]
+            a[i] = a[min]
+            a[min] = t
