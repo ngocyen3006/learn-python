@@ -2,7 +2,7 @@ import unittest
 from selectionSort import selectionSort
 
 
-class TestBubbleSort(unittest.TestCase):
+class TestSelectionSort(unittest.TestCase):
     def test_sort(self):
         a = [2, 3, 1, 6, 7, 5, 4]
         b = []
