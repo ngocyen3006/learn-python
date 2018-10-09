@@ -1,13 +1,10 @@
 def sort(arr):
-    j = 1
-    length = len(arr)
-    while j < length:
-        for i in range(length - j):
+    for j in range(1,len(arr)):
+        for i in range(len(arr) - j):
             if arr[i] > arr[i + 1]:
                 t = arr[i]
                 arr[i] = arr[i + 1]
                 arr[i + 1] = t
             else:
                 continue
-        j = j + 1
     return arr
