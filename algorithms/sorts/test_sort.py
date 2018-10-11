@@ -2,7 +2,7 @@ import unittest
 import random
 
 def gen(n):
-    return [random.randint(-10000, 1000000) for i in range(n)]
+    return [random.randint(0, 100) for i in range(n)]
 
 # Use wrapper class to prevent this class being discovered by nosetest.
 class Wrapper:
@@ -32,14 +32,14 @@ class Wrapper:
             self.assertTrue(all([x == elem for x in repeated]))
 
         def test_sort(self):
-            a = [2, 3, 1, 6, 7, 5, 4]
+            a = [2, 3, 1, 6, 7, 5, 4, 8, 9, 10, 15,14, 13, 12, 11]
             self.sortMethod(a)
-            self.assertEqual(a, [1, 2, 3, 4, 5, 6, 7])
+            self.assertEqual(a, list(range(1, 16)))
 
 
         def test_randomInput(self):
             for i in range(10):
-                n = random.randint(100, 1000)
+                n = random.randint(3, 10)
                 randomArr = gen(n)
                 self.sortMethod(randomArr)
                 for j in range(n-1):
