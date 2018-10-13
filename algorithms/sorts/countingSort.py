@@ -1,19 +1,3 @@
-def maxNum(a, b):
-    if a < b:
-        maxNum = b
-    else:
-        maxNum = a
-    return maxNum
-
-
-def minNum(a, b):
-    if a < b:
-        minNum = a
-    else:
-        minNum = b
-    return minNum
-
-
 def countingSort(arr):
     if len(arr) < 1:
         return
@@ -24,8 +8,8 @@ def countingSort(arr):
         number = arr[i]
         count.setdefault(number, 0)
         count[number] = count[number] + 1
-        maxArr = maxNum(maxArr, arr[i])
-        minArr = minNum(minArr, arr[i])
+        maxArr = max(maxArr, arr[i])
+        minArr = min(minArr, arr[i])
     j = 0
     while j < len(arr):
         for i in range(minArr, maxArr + 1):
