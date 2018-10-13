@@ -1,10 +1,12 @@
 def countingSort(arr):
+    if len(arr) < 1:
+        return
     count = {}
     for number in arr:
         count.setdefault(number, 0)
         count[number] = count[number] + 1
-        minArr = min(arr)
-        maxArr = max(arr)
+    minArr = min(arr)
+    maxArr = max(arr)
     j = 0
     while j < len(arr):
         for i in range(minArr, maxArr + 1):
