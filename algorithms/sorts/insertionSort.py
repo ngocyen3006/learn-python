@@ -1,3 +1,7 @@
+from runtimeFunction import timed
+
+
+@timed
 def insertionSort(a):
     for i in range(1, len(a)):
         x = a[i]

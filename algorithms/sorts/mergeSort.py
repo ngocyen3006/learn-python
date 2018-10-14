@@ -1,9 +1,13 @@
+from runtimeFunction import timed
+
+
 def swap(a, i, j):
     temp = a[i]
     a[i] = a[j]
     a[j] = temp
 
 
+@timed
 def mergeSort(a):
     if len(a) < 2:
         pass
