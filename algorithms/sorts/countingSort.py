@@ -14,17 +14,17 @@ def countingSort(arr):
         count[number] = count[number] + 1
         maxArr = max(maxArr, arr[i])
         minArr = min(minArr, arr[i])
+    keys = sorted(count.keys())
     j = 0
     while j < len(arr):
-        for i in range(minArr, maxArr + 1):
-            if i in count.keys():
-                if count[i] > 1:
-                    k = 0
-                    while k < count[i] and j + k < len(arr):
-                        arr[j + k] = i
-                        k += 1
-                    j = j + k
-                else:
-                    arr[j] = i
-                    j = j + 1
+        for i in keys:
+            if count[i] > 1:
+                k = 0
+                while k < count[i] and j + k < len(arr):
+                    arr[j + k] = i
+                    k += 1
+                j = j + k
+            else:
+                arr[j] = i
+                j = j + 1
     pass
