@@ -6,7 +6,7 @@ def timed(f):
         start = time.time()
         result = f(*args, **kwargs)
         t = (time.time() - start) * 1000
-        print("runtime for function {}: {:0.4f}".format(f.__name__, t))
+        print("runtime for function {}: {:0.4f} ms".format(f.__name__, t))
         return result
 
     return _timed
