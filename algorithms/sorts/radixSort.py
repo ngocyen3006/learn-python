@@ -1,7 +1,3 @@
-from runtimeFunction import timed
-
-
-@timed
 def radixSort(arr):
     if len(arr) < 2:
         return

@@ -1,7 +1,3 @@
-from runtimeFunction import timed
-
-
-@timed
 def selectionSort(a):
     for i in range(len(a) - 1):
         minIndex = i

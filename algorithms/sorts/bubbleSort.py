@@ -1,7 +1,3 @@
-from runtimeFunction import timed
-
-
-@timed
 def bubbleSort(arr):
     for j in range(1, len(arr)):
         for i in range(len(arr) - j):

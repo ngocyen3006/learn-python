@@ -1,7 +1,3 @@
-from runtimeFunction import timed
-
-
-@timed
 def countingSort(arr):
     if len(arr) < 1:
         return

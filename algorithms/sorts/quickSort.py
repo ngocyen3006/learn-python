@@ -1,4 +1,3 @@
-from runtimeFunction import timed
 import random
 
 
@@ -42,7 +41,6 @@ def sort(a, first, last):
     sort(a, i, last)
 
 
-@timed
 def quickSort(a):
     sort(a, 0, len(a) - 1)
     pass
