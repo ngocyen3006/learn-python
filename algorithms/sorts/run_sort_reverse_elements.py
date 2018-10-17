@@ -27,7 +27,7 @@ nTests = map(int, [1e5, 1e6, 1e7])
 # sortFunctions = [bubbleSort, selectionSort, insertionSort,
 #                  quickSort, mergeSort, countingSort, radixSort]
 
-sortFunctions = [mergeSort, countingSort, radixSort]
+sortFunctions = [quickSort, mergeSort, countingSort, radixSort]
 timeSort = {"bubbleSort": [], "selectionSort": [], "insertionSort": [],
             "quickSort": [], "mergeSort": [], "countingSort": [], "radixSort": []}
 for n in nTests:
