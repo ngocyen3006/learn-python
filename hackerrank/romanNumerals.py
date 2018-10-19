@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/validate-a-roman-number/problem
+
 import re
 
 
@@ -10,6 +12,3 @@ def checkRomanNumerals(s):
     # digits = r"I{1,3}|I[VX]|VI{,3}"
     romanNum = r"^(M{,3})(C[DM]|D?C{,3})(X[LC]|L?X{,3})(I[VX]|V?I{,3})$"
     return bool(re.match(romanNum, s))
-
-
-# print(checkRomanNumerals(input()))
