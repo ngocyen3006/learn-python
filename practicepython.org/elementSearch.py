@@ -1,3 +1,5 @@
+# http://www.practicepython.org/exercise/2014/11/11/20-element-search.html
+
 def find1(arr, number):
     """
     Find 1 will search number in the arr by compare it will each single number in arr

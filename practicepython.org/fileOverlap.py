@@ -1,3 +1,5 @@
+# http://www.practicepython.org/exercise/2014/12/14/23-file-overlap.html
+
 def fileToList(file):
     list = []
     with open(file) as filename:

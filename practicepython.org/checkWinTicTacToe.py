@@ -1,3 +1,5 @@
+# http://www.practicepython.org/exercise/2015/11/16/26-check-tic-tac-toe.html
+
 def checkWinGame(a):
     # check win is a row
     for j in range(3):

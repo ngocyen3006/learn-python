@@ -1,3 +1,5 @@
+# http://www.practicepython.org/exercise/2014/12/27/24-draw-a-game-board.html
+
 def drawGameBoard(n):
     i = 0
     while i < n:
