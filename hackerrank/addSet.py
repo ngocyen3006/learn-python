@@ -1,8 +1,7 @@
 # https://www.hackerrank.com/challenges/py-set-add/problem
 
 n = int(input())
-l = []
+l = set([])
 for i in range(n):
-    l.append(input())
-
-print(len(set(l)))
+    l.add(input())
+print(len(l))
