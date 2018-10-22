@@ -1,0 +1,17 @@
+English: 英语
+You: 你
+I, me: 我
+teacher: 老师
+thank you: 谢谢
+good: 好
+you're welcome: 不客气
+sorry: 对不起
+goodbye: 再见
+never mind: 没关系
+request; please; invite: 请
+enter; go into: 进
+sit: 坐
+listen, hear: 听
+speak, say: 说
+to read: 读
+write: 写
