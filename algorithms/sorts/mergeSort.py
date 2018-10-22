@@ -6,36 +6,37 @@ def swap(a, i, j):
 
 def mergeSort(a):
     if len(a) < 2:
-        pass
-    elif len(a) == 2:
+        return
+
+    if len(a) == 2:
         if a[0] > a[1]:
-            swap(a, 0, 1)
-    else:
-        mid = len(a) // 2
-        leftArr = a[:mid]
-        rightArr = a[mid:]
-        mergeSort(leftArr)
-        mergeSort(rightArr)
+            return swap(a, 0, 1)
 
-        # merge leftArr and rightArr
-        i = j = k = 0
-        while i < len(leftArr) and j < len(rightArr):
-            if leftArr[i] < rightArr[j]:
-                a[k] = leftArr[i]
-                i += 1
-                k += 1
-            else:
-                a[k] = rightArr[j]
-                j += 1
-                k += 1
+    mid = len(a) // 2
+    left = a[:mid]
+    right = a[mid:]
+    mergeSort(left)
+    mergeSort(right)
 
-        # append vao mang mergeArr nhung phan tu con lai sau khi so sanh
-        while i < len(leftArr):
-            a[k] = leftArr[i]
+    # merge leftArr and rightArr
+    i = j = k = 0
+    while i < len(left) and j < len(right):
+        if left[i] < right[j]:
+            a[k] = left[i]
             i += 1
             k += 1
-        while j < len(rightArr):
-            a[k] = rightArr[j]
+        else:
+            a[k] = right[j]
             j += 1
             k += 1
+
+    # append vao mang mergeArr nhung phan tu con lai sau khi so sanh
+    while i < len(left):
+        a[k] = left[i]
+        i += 1
+        k += 1
+    while j < len(right):
+        a[k] = right[j]
+        j += 1
+        k += 1
     pass
