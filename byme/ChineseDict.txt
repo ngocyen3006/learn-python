@@ -1,6 +1,6 @@
 English: 英语
 You: 你
-I, me: 我
+I, me, my: 我
 teacher: 老师
 thank you: 谢谢
 good: 好
@@ -15,3 +15,21 @@ listen, hear: 听
 speak, say: 说
 to read: 读
 write: 写
+we, us: 我们
+very, quite: 很
+also: 也
+dad, father: 爸爸
+mom, mother: 妈妈
+all, both: 都
+they, them: 他们
+elder brother: 哥哥
+he, him: 他
+she, her: 她
+elder sister: 姐姐
+wife or husband; beloved: 爱人
+younger brother: 弟弟
+younger sister: 妹妹
+busy: 忙
+tired: 累
+to starve; hungry: 饿
+thirsty; yearningly, eagerly: 渴
