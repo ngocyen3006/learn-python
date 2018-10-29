@@ -36,9 +36,9 @@ def primefactors(n):
     if n < 1:
         return -1
     if n == 1:
-        return 1
+        return {1: 1}
     if isPrime(n):
-        return n
+        return {n: 1}
     arr = listPrime(n // 2)
     factors = {}
     while n > 1:
@@ -47,5 +47,4 @@ def primefactors(n):
                 factors.setdefault(i, 0)
                 factors[i] = factors[i] + 1
                 n = n / i
-    return list(factors.keys())
-
+    return factors
