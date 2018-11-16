@@ -30,16 +30,3 @@ def move_rectangle(rect, dx, dy):
     '''Move the Rectangle by modifying its corner object.'''
     rect.corner.x += dx
     rect.corner.y += dy
-
-
-box = Rectangle()
-box.width = 100.0
-box.height = 200.0
-box.corner = Point()
-box.corner.x = 0.0
-box.corner.y = 0.0
-center = find_center(box)
-print_point(center)
-grow_rectangle(box, 50, 100)
-move_rectangle(box, 4.0, 4.0)
-print_point(box.corner)
