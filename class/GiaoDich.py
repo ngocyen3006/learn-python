@@ -36,6 +36,29 @@ class GiaoDichTienTe(GiaoDich):
         GiaoDich.in_giao_dich(self, mua_ban)
 
 
+def nhap_thong_tin_chung():
+    ma_giao_dich = input("Nhap ma GD: ")
+    ngay = input("Nhap ngay GD: ")
+    so_luong = int(input('Nhap so luong: '))
+    info = [ma_giao_dich, ngay, so_luong]
+    return info
+
+
+def nhap_thon_tin_vang():
+    loai_vang = input('Chon loai: 18k/ 24k/ 9999: ')
+    don_gia = int(input('Nhap don gia: '))
+    info_vang = [don_gia, loai_vang]
+    return info_vang
+
+
+def nhap_thong_tin_tien():
+    loai_tien = input('Chon loai: USD/ EUR/ AUD: ')
+    ty_gia = int(input('Nhap ty gia: '))
+    mua_ban = int(input('Ban mua hay ban? 1: mua, 0: ban: '))
+    info_tien = [ty_gia, loai_tien, mua_ban]
+    return info_tien
+
+
 if __name__ == '__main__':
     print("Quan ly giao dich:".center(30, '-'))
     tong_luong_vang = 0
@@ -44,27 +67,26 @@ if __name__ == '__main__':
     tong_tien = 0
     loop = 1
     while loop > 0:
-        ma_giao_dich = input("Nhap ma GD: ")
-        ngay = input("Nhap ngay GD: ")
-        so_luong = int(input('Nhap so luong: '))
+        info = nhap_thong_tin_chung()
         loai_GD = int(input("Chon loai GD: 1: Vang, 2: Tien te: "))
         if loai_GD == 1:
-            loai_vang = input('Chon loai: 18k/ 24k/ 9999: ')
-            don_gia = int(input('Nhap don gia: '))
-            res = GiaoDich(ma_giao_dich, ngay, so_luong, don_gia, loai_vang)
+            info_vang = nhap_thon_tin_vang()
+            res = GiaoDich(info[0], info[1], info[2], info_vang[0], info_vang[1])
             res.in_giao_dich()
-            tong_luong_vang += so_luong
+
+            tong_luong_vang += info[2]
             print(f'Tong so luong: {tong_luong_vang}')
+
             tong_tien_vang += res.thanh_tien()
             print(f'Tong so tien: {tong_tien_vang:,.0f}')
         else:
-            loai_tien = input('Chon loai: USD/ EUR/ AUD: ')
-            ty_gia = int(input('Nhap ty gia: '))
-            mua_ban = int(input('Ban mua hay ban? 1: mua, 0: ban: '))
-            res = GiaoDichTienTe(ma_giao_dich, ngay, so_luong, ty_gia, loai_tien, mua_ban)
+            info_tien = nhap_thong_tin_tien()
+            res = GiaoDichTienTe(info[0], info[1], info[2], info_tien[0], info_tien[1], info_tien[2])
             res.in_giao_dich()
-            tong_luong_tien += so_luong
+
+            tong_luong_tien += info[2]
             print(f'Tong so luong: {tong_luong_tien}')
+
             tong_tien += res.thanh_tien()
             print(f'Tong so tien: {tong_tien:,.0f}')
 
