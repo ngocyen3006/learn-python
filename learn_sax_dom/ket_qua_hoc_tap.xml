@@ -1,0 +1,18 @@
+<DANH_SACH>
+    <HOC_SINH Ho_ten="Trần Ngọc Thảo" Ngay_sinh="2007-10-23">
+        <KET_QUA_THI>
+            <KET_QUA Ma_mon="TOAN" Diem="9.5"/>   
+            <KET_QUA Ma_mon="TIENG_VIET" Diem="10.0"/>   
+            <KET_QUA Ma_mon="ANH_VAN" Diem="8.5"/>   
+            <KET_QUA Ma_mon="TIN_HOC" Diem="10.0"/>   
+        </KET_QUA_THI>
+    </HOC_SINH>
+    <HOC_SINH Ho_ten="Nguyễn Văn Bình" Ngay_sinh="2007-12-01">
+        <KET_QUA_THI>
+            <KET_QUA Ma_mon="TOAN" Diem="8.5"/>   
+            <KET_QUA Ma_mon="TIENG_VIET" Diem="9.0"/>   
+            <KET_QUA Ma_mon="ANH_VAN" Diem="9.5"/>   
+            <KET_QUA Ma_mon="TIN_HOC" Diem="7.0"/>   
+        </KET_QUA_THI>
+    </HOC_SINH>
+</DANH_SACH>
