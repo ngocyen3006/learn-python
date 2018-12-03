@@ -1,0 +1,49 @@
+{
+    "Ma_khoa": "TO",
+    "Ten_khoa": "Khoa Toán",
+    "Danh_sach": [
+        {
+            "Ma_so": "C01",
+            "Ho_ten": "Mai Thanh Cần",
+            "Gioi_tinh": true,
+            "Ngay_sinh": "1965-12-24",
+            "Hoc_bong": 120000,
+            "Dien_thoai": [
+                "0903147745",
+                "02862954322"
+            ],
+            "Ket_qua_hoc_tap": [
+                {
+                    "Ma_mon": "TORR",
+                    "Diem": 6.0
+                },
+                {
+                    "Ma_mon": "COLT",
+                    "Diem": 7.5
+                }
+            ]
+        },
+        {
+            "Ma_so": "C02",
+            "Ho_ten": "Nguyễn Ngọc Thanh Thảo",
+            "Gioi_tinh": false,
+            "Ngay_sinh": "1989-12-01",
+            "Hoc_bong": 150000,
+            "Dien_thoai": [],
+            "Ket_qua_hoc_tap": [
+                {
+                    "Ma_mon": "TORR",
+                    "Diem": 8.0
+                },
+                {
+                    "Ma_mon": "COLT",
+                    "Diem": 8.5
+                },
+                {
+                    "Ma_mon": "DASO",
+                    "Diem": 7.0
+                }
+            ]
+        }
+    ]
+}

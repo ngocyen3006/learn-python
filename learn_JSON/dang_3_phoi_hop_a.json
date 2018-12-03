@@ -1,0 +1,34 @@
+{
+    "Ma_khoa": "TO",
+    "Ten_khoa": "Khoa Toán",
+    "Danh_sach": [
+        {
+            "Ma_so": "C01",
+            "Ho_ten": "Mai Thanh Cần",
+            "Gioi_tinh": true,
+            "Ngay_sinh": "1965-12-24",
+            "Hoc_bong": 120000
+        },
+        {
+            "Ma_so": "C02",
+            "Ho_ten": "Nguyễn Ngọc Thanh Thảo",
+            "Gioi_tinh": false,
+            "Ngay_sinh": "1989-12-01",
+            "Hoc_bong": 150000
+        },
+        {
+            "Ma_so": "C03",
+            "Ho_ten": "Đặng Bình Phương",
+            "Gioi_tinh": true,
+            "Ngay_sinh": "1977-10-24",
+            "Hoc_bong": 150000
+        },
+        {
+            "Ma_so": "C04",
+            "Ho_ten": "Chu Phạm Tiến Luật",
+            "Gioi_tinh": true,
+            "Ngay_sinh": "1988-03-15",
+            "Hoc_bong": 100000
+        }
+    ]
+}
