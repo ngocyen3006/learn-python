@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DANH_SACH>
+    <PHIM Nam_san_xuat="1982" Ten="Tieng chim hot trong bui man gai">
+        <The_loai>Tinh cam</The_loai>
+        <Dinh_dang>DVD</Dinh_dang>
+    </PHIM>
+    <PHIM Nam_san_xuat="1981" Ten="Chien tranh va hoa binh">
+        <The_loai>Tinh cam, chien tranh</The_loai>
+        <Dinh_dang>DVD</Dinh_dang>
+    </PHIM>
+    <PHIM Nam_san_xuat="1990" Ten="Nguoi dep va quai vat">
+        <The_loai>Tinh cam, hoat hinh</The_loai>
+        <Dinh_dang>VHS</Dinh_dang>
+    </PHIM>
+</DANH_SACH>
