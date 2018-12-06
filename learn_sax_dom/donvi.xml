@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DON_VI_S shelf="Danh sach don vi">
+    <DON_VI ID="1" Ten="Don vi A"/>
+    <DON_VI ID="2" Ten="Don vi B"/>
+    <DON_VI ID="3" Ten="Don vi C"/>
+    <DON_VI ID="4" Ten="Don vi D"/>
+    <DON_VI ID="5" Ten="Don vi E"/>
+</DON_VI_S>
