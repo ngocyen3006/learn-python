@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cds>
+    <cd ten="Happy new year">
+        <ca_sy>ABBA</ca_sy>
+        <so_bai_hat>10</so_bai_hat>
+        <gia_thanh>25000</gia_thanh>
+    </cd>
+</cds>
