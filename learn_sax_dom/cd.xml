@@ -5,4 +5,19 @@
         <so_bai_hat>10</so_bai_hat>
         <gia_thanh>25000</gia_thanh>
     </cd>
+    <cd ten="Chat voi Mozart">
+        <ca_sy>My Linh</ca_sy>
+        <so_bai_hat>6</so_bai_hat>
+        <gia_thanh>185000</gia_thanh>
+    </cd>
+    <cd ten="Ngay khong mua">
+        <ca_sy>Hong Nhung</ca_sy>
+        <so_bai_hat>10</so_bai_hat>
+        <gia_thanh>250000</gia_thanh>
+    </cd>
+    <cd ten="Xuan 2017">
+        <ca_sy>Nhieu ca sy</ca_sy>
+        <so_bai_hat>8</so_bai_hat>
+        <gia_thanh>150000</gia_thanh>
+    </cd>
 </cds>
