@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NHAN_VIEN_S shelf="New Arrivals">
+    <NHAN_VIEN CMND="060605210" Dia_chi="12 abc daf" Gioi_tinh="True" ID="1" ID_DON_VI="1" Muc_luong="5200000"
+               Ngay_sinh="31/08/1973" Ten="Phi Quyet Nguyen"/>
+    <NHAN_VIEN CMND="083239154" Dia_chi="1 hnj kjo" Gioi_tinh="False" ID="2" ID_DON_VI="2" Muc_luong="8400000"
+               Ngay_sinh="14/03/1979" Ten="Do Son Thuy Trang"/>
+    <NHAN_VIEN CMND="005487440" Dia_chi="8 dfu oen" Gioi_tinh="False" ID="3" ID_DON_VI="1" Muc_luong="5000000"
+               Ngay_sinh="26/04/1990" Ten="Trieu Thi Trang Dai"/>
+    <NHAN_VIEN CMND="092700391" Dia_chi="21 hnr yfc" Gioi_tinh="False" ID="4" ID_DON_VI="3" Muc_luong="5800000"
+               Ngay_sinh="21/05/1993" Ten="Bui Nam Quang Vien"/>
+    <NHAN_VIEN CMND="011468433" Dia_chi="24 fvg hjk" Gioi_tinh="True" ID="5" ID_DON_VI="4" Muc_luong="5600000"
+               Ngay_sinh="18/02/1994" Ten="Tran Tien Quan"/>
+    <NHAN_VIEN CMND="052250493" Dia_chi="63 kgn cjd" Gioi_tinh="True" ID="6" ID_DON_VI="5" Muc_luong="5200000"
+               Ngay_sinh="28/12/1995" Ten="Le Minh Khang"/>
+    <NHAN_VIEN CMND="013496480" Dia_chi="52 fhk heb" Gioi_tinh="True" ID="7" ID_DON_VI="4" Muc_luong="5100000"
+               Ngay_sinh="25/04/1996" Ten="Duong Thanh Binh"/>
+    <NHAN_VIEN CMND="071576262" Dia_chi="54 klg uhn" Gioi_tinh="False" ID="8" ID_DON_VI="5" Muc_luong="5400000"
+               Ngay_sinh="14/12/1996" Ten="Truong Phuoc Thao Truc"/>
+    <NHAN_VIEN CMND="077321551" Dia_chi="12 hnj gvf" Gioi_tinh="True" ID="9" ID_DON_VI="1" Muc_luong="5500000"
+               Ngay_sinh="31/07/1992" Ten="Mai Dinh Duong"/>
+</NHAN_VIEN_S>

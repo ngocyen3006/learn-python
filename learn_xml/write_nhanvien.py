@@ -47,6 +47,6 @@ for d in donvi:
     d_node.setAttribute("Dia_chi", dia_chi)
     d_node.setAttribute("ID_DON_VI", id_dv)
 
-f = open("nhan_vien.xml", "w", encoding="UTF-8")
+f = open("nhanvien.xml", "w", encoding="UTF-8")
 doc.writexml(f, newl="\n", indent="", addindent="  ", encoding="utf-8")
 f.close()
