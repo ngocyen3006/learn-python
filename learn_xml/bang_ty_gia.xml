@@ -1,0 +1,25 @@
+<ExrateList>
+    <DateTime>7/2/2018 7:24:05 AM</DateTime>
+    <Exrate CurrencyCode="AUD" CurrencyName="AUST.DOLLAR" Buy="16762.65" Transfer="16863.83" Sell="17048.16"/>
+    <Exrate CurrencyCode="CAD" CurrencyName="CANADIAN DOLLAR" Buy="17107.88" Transfer="17263.25" Sell="17451.94"/>
+    <Exrate CurrencyCode="CHF" CurrencyName="SWISS FRANCE" Buy="22799.35" Transfer="22960.07" Sell="23257.5"/>
+    <Exrate CurrencyCode="DKK" CurrencyName="DANISH KRONE" Buy="0" Transfer="3533.83" Sell="3644.63"/>
+    <Exrate CurrencyCode="EUR" CurrencyName="EURO" Buy="26565.16" Transfer="26645.1" Sell="27042.8"/>
+    <Exrate CurrencyCode="GBP" CurrencyName="BRITISH POUND" Buy="29841.32" Transfer="30051.68" Sell="30319.45"/>
+    <Exrate CurrencyCode="HKD" CurrencyName="HONGKONG DOLLAR" Buy="2884.17" Transfer="2904.5" Sell="2948.02"/>
+    <Exrate CurrencyCode="INR" CurrencyName="INDIAN RUPEE" Buy="0" Transfer="334.65" Sell="347.78"/>
+    <Exrate CurrencyCode="JPY" CurrencyName="JAPANESE YEN" Buy="203.1" Transfer="205.15" Sell="208.63"/>
+    <Exrate CurrencyCode="KRW" CurrencyName="SOUTH KOREAN WON" Buy="19.02" Transfer="20.02" Sell="21.28"/>
+    <Exrate CurrencyCode="KWD" CurrencyName="KUWAITI DINAR" Buy="0" Transfer="75666.31" Sell="78635.97"/>
+    <Exrate CurrencyCode="MYR" CurrencyName="MALAYSIAN RINGGIT" Buy="0" Transfer="5655.21" Sell="5728.47"/>
+    <Exrate CurrencyCode="NOK" CurrencyName="NORWEGIAN KRONER" Buy="0" Transfer="2773.38" Sell="2860.34"/>
+    <Exrate CurrencyCode="RUB" CurrencyName="RUSSIAN RUBLE" Buy="0" Transfer="365.42" Sell="407.18"/>
+    <Exrate CurrencyCode="SAR" CurrencyName="SAUDI RIAL" Buy="0" Transfer="6107.3" Sell="6346.99"/>
+    <Exrate CurrencyCode="SEK" CurrencyName="SWEDISH KRONA" Buy="0" Transfer="2533.25" Sell="2597.04"/>
+    <Exrate CurrencyCode="SGD" CurrencyName="SINGAPORE DOLLAR" Buy="16638.03" Transfer="16755.32" Sell="16938.46"/>
+    <Exrate CurrencyCode="THB" CurrencyName="THAI BAHT" Buy="679.35" Transfer="679.35" Sell="707.69"/>
+    <Exrate CurrencyCode="USD" CurrencyName="US DOLLAR" Buy="22920" Transfer="22920" Sell="22990"/>
+    <Source>
+        Joint Stock Commercial Bank for Foreign Trade of Vietnam - Vietcombank
+    </Source>
+</ExrateList>
