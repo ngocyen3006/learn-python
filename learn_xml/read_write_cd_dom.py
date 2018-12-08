@@ -74,8 +74,8 @@ if __name__ == '__main__':
 
             cd = CD(ten, ca_sy, so_bai_hat, gia_thanh)
 
-            make_xml("cd.xml", cd).writexml(open("cd.xml", "w+", encoding="utf=8"), newl="\n", indent="",
-                                            addindent="  ", encoding="utf-8")
+            make_xml("cd.xml", cd).writexml(open("cd.xml", "w", encoding="utf=8"), newl="\n", indent="",
+                                            addindent="\t", encoding="utf-8")
             print('Da them CD')
         else:
             read_xml("cd.xml")

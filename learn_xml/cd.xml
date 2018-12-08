@@ -1,23 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cds>
+
+
     <cd ten="Happy new year">
+
+
         <ca_sy>ABBA</ca_sy>
+
+
         <so_bai_hat>10</so_bai_hat>
+
+
         <gia_thanh>25000</gia_thanh>
+
+
     </cd>
+
+
     <cd ten="Chat voi Mozart">
+
+
         <ca_sy>My Linh</ca_sy>
+
+
         <so_bai_hat>6</so_bai_hat>
+
+
         <gia_thanh>185000</gia_thanh>
+
+
     </cd>
+
+
     <cd ten="Ngay khong mua">
+
+
         <ca_sy>Hong Nhung</ca_sy>
+
+
         <so_bai_hat>10</so_bai_hat>
+
+
         <gia_thanh>250000</gia_thanh>
+
+
     </cd>
+
+
     <cd ten="Xuan 2017">
+
+
         <ca_sy>Nhieu ca sy</ca_sy>
+
+
         <so_bai_hat>8</so_bai_hat>
+
+
         <gia_thanh>150000</gia_thanh>
+
+
+    </cd>
+
+
+    <cd ten="Giai ma">
+
+
+        <ca_sy>Vu Cat Tuong</ca_sy>
+
+
+        <so_bai_hat>5</so_bai_hat>
+
+
+        <gia_thanh>50000</gia_thanh>
+
+
+    </cd>
+
+
+    <cd ten="Tam">
+
+
+        <ca_sy>My Tam</ca_sy>
+
+
+        <so_bai_hat>8</so_bai_hat>
+
+
+        <gia_thanh>200000</gia_thanh>
+
+
+    </cd>
+
+
+    <cd ten="Tam 9">
+
+
+        <ca_sy>My Tam</ca_sy>
+
+
+        <so_bai_hat>10</so_bai_hat>
+
+
+        <gia_thanh>250000</gia_thanh>
+
+
+    </cd>
+
+
+    <cd ten="Ben doi co em">
+        <ca_sy>Quang Dung</ca_sy>
+        <so_bai_hat>12</so_bai_hat>
+        <gia_thanh>280000</gia_thanh>
     </cd>
 </cds>
