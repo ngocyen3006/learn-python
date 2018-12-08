@@ -23,7 +23,7 @@ def ds_nv(ds):
     listElement = root_node.getElementsByTagName("NHAN_VIEN")
     for node in listElement:
         id = node.getAttribute('ID')
-        name = node.getAttribute('Ten')
+        name = node.getAttribute('Ho_ten')
         cmnd = node.getAttribute('CMND')
         gt = node.getAttribute('Gioi_tinh')
         ns = node.getAttribute('Ngay_sinh')
@@ -36,7 +36,7 @@ def ds_nv(ds):
 
 
 def gioi_tinh(gt):
-    if gt == "True":
+    if gt == "true":
         return 1
     return 0
 

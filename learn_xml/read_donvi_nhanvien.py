@@ -15,7 +15,7 @@ def in_don_vi():
 
 
 def dem_gioi_tinh(gt):
-    if gt == "True":
+    if gt == "true":
         return 1
     return 0
 
@@ -33,7 +33,7 @@ def in_nhan_vien(ID_DV):
             count_gt += dem_gioi_tinh(node.getAttribute('Gioi_tinh'))
             count += 1
             id = node.getAttribute('ID')
-            name = node.getAttribute('Ten')
+            name = node.getAttribute('Ho_ten')
             cmnd = node.getAttribute('CMND')
             print(f"{id} - {name} - {cmnd}")
     print(f"Tong so NV: {count}- Trong do {count_gt} nam va {count - count_gt} nu")
