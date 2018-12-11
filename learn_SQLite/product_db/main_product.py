@@ -1,4 +1,4 @@
-from manipulation_product import *
+from product_db.manipulation_product import *
 
 
 def choice_add_new_product():
