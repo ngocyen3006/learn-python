@@ -1,0 +1,30 @@
+[
+  {
+    "Ma_so": "C01",
+    "Ho_ten": "Mai Thanh C\u1ea7n",
+    "Gioi_tinh": true,
+    "Ngay_sinh": "1965-12-24",
+    "Hoc_bong": 120000
+  },
+  {
+    "Ma_so": "C02",
+    "Ho_ten": "Nguy\u1ec5n Ng\u1ecdc Thanh Th\u1ea3o",
+    "Gioi_tinh": false,
+    "Ngay_sinh": "1989-12-01",
+    "Hoc_bong": 150000
+  },
+  {
+    "Ma_so": "C03",
+    "Ho_ten": "\u0110\u1eb7ng B\u00ecnh Ph\u01b0\u01a1ng",
+    "Gioi_tinh": true,
+    "Ngay_sinh": "1977-10-24",
+    "Hoc_bong": 150000
+  },
+  {
+    "Ma_so": "C04",
+    "Ho_ten": "Chu Ph\u1ea1m Ti\u1ebfn Lu\u1eadt",
+    "Gioi_tinh": true,
+    "Ngay_sinh": "1988-03-15",
+    "Hoc_bong": 100000
+  }
+]
