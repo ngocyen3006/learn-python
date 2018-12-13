@@ -17,7 +17,7 @@ def make_xml(ten_file, cd):
         root_xml = doc.documentElement
     else:
         doc = Document()
-        root_xml = doc.createTextNode('cds')
+        root_xml = doc.createElement('cds')
         doc.appendChild(root_xml)
 
     child_node = doc.createElement('cd')
