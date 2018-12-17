@@ -1,4 +1,12 @@
 from tkinter import *
+from tkinter.constants import BOTH, YES
+from tkinter import font
+
+
+def photo(year):
+    list_hinh = ['than.gif', 'dau.gif', 'tuat.gif', 'hoi.gif', 'ti.gif', 'suu.gif', 'dan.gif', 'meo.gif', 'thin.gif',
+                 'ty.gif', 'ngo.gif', 'mui.gif']
+    return list_hinh[year % 12]
 
 
 def can(year):
@@ -14,6 +22,7 @@ def chi(year):
 def can_chi():
     year = int(_year.get())
     canChi = can(year) + " " + chi(year)
+    image = photo(year)
 
     lunarYear = Toplevel()
 
@@ -24,12 +33,20 @@ def can_chi():
     lunarYear.geometry("200x150")
     lunarYear.resizable(1, 1)
 
+    # PhotoImage
+    canvas = Canvas(lunarYear, width=64, height=64)
+    canvas.pack(expand=YES, fill=BOTH)
+    gif = PhotoImage(file=image)
+    canvas.create_image(50, 70, image=gif, anchor=W)
+    canvas.gif = gif
+
     # Label result
-    result = Label(lunarYear, text=canChi)
+    result = Label(lunarYear, text=canChi, font=font.Font(size=14, weight='bold'))
     result.pack()
 
 
-if __name__ == '__main__':
+def makeGUI():
+    global _year
     root = Tk()
     # Title
     root.title('Lunar year')
@@ -51,3 +68,7 @@ if __name__ == '__main__':
     Cal.pack()
 
     root.mainloop()
+
+
+if __name__ == '__main__':
+    makeGUI()
