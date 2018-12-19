@@ -22,6 +22,7 @@ def read_file_db(file):
         element = NhanVien(i['ma_so'], i['ho_ten'], i['ngay_sinh'], i['gioi_tinh'],
                            i['luong'], i['ma_phong'])
         data.append(element)
+    conn.close()
     return data
 
 
