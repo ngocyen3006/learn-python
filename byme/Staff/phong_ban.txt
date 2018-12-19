@@ -1,0 +1,4 @@
+KT,Phòng Kế toán
+VT,Phòng Vật tư
+QT,Phòng Quản trị tài nguyên
+TV,Phòng Tài vụ
