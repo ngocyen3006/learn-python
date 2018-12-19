@@ -74,7 +74,19 @@ def update_dept_ID_staff(dept_ID, id):
     conn.commit()
 
 
-def update_staff(age, address, salary, dept_ID, id):
+def update_staff(id, age=None, address=None, salary=None, dept_ID=None):
+    staff = conn.execute('select * from STAFF where ID_Staff=?', (id,))
+    staff = staff.fetchone()
+    if staff != None:
+        if age == None:
+            age = staff['Age']
+        if address == None:
+            address = staff['Address']
+        if salary == None:
+            salary = staff['Salary']
+        if dept_ID == None:
+            dept_ID = staff['Dep_ID']
+
     conn.execute('update STAFF set Age= ?, Address= ?, Salary=?, Dep_ID=?  where ID_Staff= ?',
                  (age, address, salary, dept_ID, id))
     conn.commit()

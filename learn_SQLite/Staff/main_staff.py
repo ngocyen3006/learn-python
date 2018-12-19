@@ -40,40 +40,31 @@ def choice_update_dept():
 
 
 def choice_update_staff():
-    menu = '''  1. Just update Age
-        2. Just update Address
-        3. Just update Salary
-        4. Just update Dept ID
-        5. Update all '''
-    menu = ''.join(menu.split('   '))
-    print(menu)
-    choice = int(input('> '))
     id_staff = int(input('Input ID you want to update: '))
-
-    if choice == 1:
-        age = int(input('Input new age: '))
-        update_age_staff(age, id_staff)
-
-    elif choice == 2:
-        address = input('Input new address: ')
-        update_address_staff(address, id_staff)
-
-    elif choice == 3:
-        salary = int(input('Input new salary: '))
-        update_salary_staff(salary, id_staff)
-
-    elif choice == 4:
-        dept_ID = int(input('Input new dept ID: '))
-        update_dept_ID_staff(dept_ID, id_staff)
-
-    elif choice == 5:
-        age = int(input('Input new age: '))
-        address = input('Input new address: ')
-        salary = int(input('Input new salary: '))
-        dept_ID = int(input('Input new dept ID: '))
-        update_staff(age, address, salary, dept_ID, id_staff)
+    age = input('Input new age: ')
+    address = input('Input new address: ')
+    salary = input('Input new salary: ')
+    dept_ID = input('Input new dept ID: ')
+    if age == '':
+        age = None
     else:
-        print('No number in you choice!')
+        age = int(age)
+
+    if address == '':
+        address = None
+
+    if salary == '':
+        salary = None
+    else:
+        salary = int(salary)
+
+    if dept_ID == '':
+        dept_ID = None
+    else:
+        dept_ID = int(dept_ID)
+
+    update_staff(id_staff, age, address, salary, dept_ID)
+
     print('Update success')
     print('\n')
 
