@@ -4,7 +4,7 @@ from tkinter import messagebox
 from in_tat_ca_nv import *
 
 
-def tim_nhan_vien(msnv):
+def tim_nhan_vien(msnv, ms_nv, ho_ten, ngay_sinh, gt, luong, ma_phong_ban):
     conn = sqlite3.connect(r'ql_nhan_vien.db')
     cur = conn.execute("select * from NHAN_VIEN where ma_so=?", (msnv,))
     nhan_vien = cur.fetchone()
@@ -40,7 +40,7 @@ def tim_nhan_vien(msnv):
 
 def tim_nv():
     ma_so_nv = ma_so.get()
-    tim_nhan_vien(ma_so_nv)
+    tim_nhan_vien(ma_so_nv, ms_nv, ho_ten, ngay_sinh, gt, luong, ma_phong_ban)
 
 
 def GUI_tim_kiem():
@@ -78,7 +78,7 @@ def GUI_tim_kiem():
     gt.grid(row=r, column=1, sticky=W, columnspan=2, pady=2)
 
     r += 1
-    luong = Entry(window, width=20)
+    luong = Entry(window, width=20, justify='right')
     luong.grid(row=r, column=1, sticky=W, columnspan=2, pady=2)
 
     r += 1
