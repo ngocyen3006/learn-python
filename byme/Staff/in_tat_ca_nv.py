@@ -38,6 +38,8 @@ def format_date(d):
 
 
 def format_currency(c):
+    if isinstance(c, str):
+        return c
     return f"{c:,.0f} đ"
 
 
