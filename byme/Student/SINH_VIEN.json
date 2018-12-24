@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "ho_ten": "Nguyễn Ngọc Ngạn",
+    "ngay_sinh": "1999-12-28",
+    "gioi_tinh": 1,
+    "diem_trung_binh": 6.5,
+    "ma_khoa": "TO"
+  },
+  {
+    "id": 2,
+    "ho_ten": "Đặng Đức Trung",
+    "ngay_sinh": "1999-02-28",
+    "gioi_tinh": 2,
+    "diem_trung_binh": 8.5,
+    "ma_khoa": "TO"
+  },
+  {
+    "id": 3,
+    "ho_ten": "Huỳnh Hoàng Nga",
+    "ngay_sinh": "1999-03-15",
+    "gioi_tinh": 0,
+    "diem_trung_binh": 7.0,
+    "ma_khoa": "TO"
+  },
+  {
+    "id": 4,
+    "ho_ten": "Đào Đình Anh Tuấn",
+    "ngay_sinh": "1999-04-16",
+    "gioi_tinh": 1,
+    "diem_trung_binh": 4.0,
+    "ma_khoa": "TO"
+  },
+  {
+    "id": 5,
+    "ho_ten": "Nguyễn Nhật Minh",
+    "ngay_sinh": "1999-08-14",
+    "gioi_tinh": 2,
+    "diem_trung_binh": 3.5,
+    "ma_khoa": "LY"
+  },
+  {
+    "id": 6,
+    "ho_ten": "Nguyễn Minh Nhật",
+    "ngay_sinh": "1999-09-29",
+    "gioi_tinh": 1,
+    "diem_trung_binh": 5.0,
+    "ma_khoa": "LY"
+  },
+  {
+    "id": 7,
+    "ho_ten": "Nguyễn Lê Hồng Quế",
+    "ngay_sinh": "1999-10-25",
+    "gioi_tinh": 0,
+    "diem_trung_binh": 8.0,
+    "ma_khoa": "LY"
+  },
+  {
+    "id": 8,
+    "ho_ten": "Nguyễn Ngọc Duy",
+    "ngay_sinh": "1999-12-25",
+    "gioi_tinh": 2,
+    "diem_trung_binh": 5.0,
+    "ma_khoa": "LY"
+  },
+  {
+    "id": 9,
+    "ho_ten": "Nguyễn Thái Dương",
+    "ngay_sinh": "1999-09-29",
+    "gioi_tinh": 1,
+    "diem_trung_binh": 6.3,
+    "ma_khoa": "LY"
+  },
+  {
+    "id": 10,
+    "ho_ten": "Huỳnh Trần Bảo Vi",
+    "ngay_sinh": "1999-07-06",
+    "gioi_tinh": 0,
+    "diem_trung_binh": 6.0,
+    "ma_khoa": "LY"
+  }
+]
