@@ -10,10 +10,10 @@ def race(v1, v2, g):
     if v1 >= v2:
         return None
     s = v2 - v1
-    t = g / s
     for _ in range(3):
-        time.append(int(t))
-        t = (t - int(t)) * 60
+        t = int(g / s)
+        time.append(t)
+        g = (g - s * t) * 60
     return time
 
 
@@ -25,8 +25,4 @@ class TestRace(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    for i in range(30):
-        v1 = random.randint(50, 10000)
-        v2 = random.randint(100, 10000)
-        g = random.randint(30, 150)
-        print(f"race{(v1, v2, g)} ==> {race(v1, v2, g)}")
+    unittest.main()
