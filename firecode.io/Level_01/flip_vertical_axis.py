@@ -1,10 +1,14 @@
 # Flip it!
 
 def flip_vertical_axis(matrix):
-    arr = [0] * len(matrix)
+    res = [0] * len(matrix)
     for i in range(len(matrix)):
-        arr[i] = list(reversed(matrix[i]))
-    return arr
+        row = len(matrix[i])
+        arr = [0] * row
+        for j in range(row - 1, -1, -1):
+            arr[row - j - 1] = matrix[i][j]
+        res[i] = arr
+    return res
 
 
 if __name__ == '__main__':
