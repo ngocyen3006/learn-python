@@ -1,17 +1,8 @@
 # Horizontal Flip
 
 def flip_horizontal_axis(matrix):
-    # Method 1
-    # return list(reversed(matrix))
-
-    # Method 2
-    return matrix[::-1]
-
-    # Method 3
-    # arr = []
-    # for i in range(len(matrix) - 1, -1, -1):
-    #     arr.append(matrix[i])
-    # return arr
+    matrix[:] = matrix[::-1]
+    return matrix
 
 
 if __name__ == '__main__':
