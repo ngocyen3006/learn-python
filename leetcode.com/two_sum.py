@@ -1,13 +1,11 @@
 # https://leetcode.com/problems/two-sum/
 def twoSum(nums, target):
     for i in range(len(nums)):
-        l = [j for j, n in enumerate(nums) if n == target - nums[i]]
-        if len(l) == 0 or (len(l) == 1 and i in l):
+        n = target - nums[i]
+        try:
+            return [i, nums.index(n, i + 1, len(nums))]
+        except ValueError:
             continue
-        elif len(l) == 1 and l[0] > i:
-            return [i, l[0]]
-        else:
-            return [i, l[1]]
 
 
 if __name__ == '__main__':
