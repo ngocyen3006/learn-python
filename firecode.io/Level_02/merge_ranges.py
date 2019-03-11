@@ -19,19 +19,16 @@ def merge_ranges(input_range_list):
     r = input_range_list[0]
     i = 1
     while i < len(input_range_list):
-        try:
-            if r.upper_bound >= input_range_list[i].upper_bound:
-                i += 1
-                continue
-            if r.upper_bound >= input_range_list[i].lower_bound and r.upper_bound < input_range_list[i].upper_bound:
-                r.upper_bound = input_range_list[i].upper_bound
-                i += 1
-                continue
-            res.append(r.__str__())
-            r = input_range_list[i]
+        if r.upper_bound >= input_range_list[i].upper_bound:
             i += 1
-        except IndexError:
-            break
+            continue
+        if r.upper_bound >= input_range_list[i].lower_bound and r.upper_bound < input_range_list[i].upper_bound:
+            r.upper_bound = input_range_list[i].upper_bound
+            i += 1
+            continue
+        res.append(r.__str__())
+        r = input_range_list[i]
+        i += 1
     res.append(r.__str__())
     return res
 
