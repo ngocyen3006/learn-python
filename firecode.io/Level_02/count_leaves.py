@@ -21,6 +21,15 @@ class BinaryTree:
 
 
 if __name__ == '__main__':
-    tree = TreeNode(1)
-    tree = BinaryTree(tree)
-    print(tree.number_of_leaves(1))
+    l4 = TreeNode(8)
+    r4 = TreeNode(9)
+    l3 = TreeNode(6, l4, r4)
+    r3 = TreeNode(7)
+    l2 = TreeNode(4)
+    r2 = TreeNode(5)
+    l1 = TreeNode(2, l2, r2)
+    r1 = TreeNode(3, l3, r3)
+    root = TreeNode(1, l1, r1)
+
+    bTree = BinaryTree()
+    print(bTree.number_of_leaves(root))
