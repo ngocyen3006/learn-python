@@ -1,11 +1,14 @@
 # https://leetcode.com/problems/two-sum/
+# Optimized
+
 def twoSum(nums, target):
+    dict = {}
     for i in range(len(nums)):
         n = target - nums[i]
-        try:
-            return [i, nums.index(n, i + 1, len(nums))]
-        except ValueError:
-            continue
+        if n in dict.keys():
+            return [dict[n], i]
+        else:
+            dict[nums[i]] = i
 
 
 if __name__ == '__main__':
