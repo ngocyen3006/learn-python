@@ -1,4 +1,4 @@
-# Firecode.io problems
+# [Firecode.io](https://www.firecode.io/pages/home) problems
 
 ## Level 1
 
