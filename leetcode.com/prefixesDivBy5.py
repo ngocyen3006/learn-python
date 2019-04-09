@@ -1,12 +1,9 @@
 # https://leetcode.com/problems/binary-prefix-divisible-by-5/
 
 def prefixesDivBy5(A):
-    res = []
-    s = ''
-    for b in A:
-        s = s + str(b)
-        res.append(int(s, 2) % 5 == 0)
-    return res
+    for i in range(1, len(A)):
+        A[i] += A[i - 1] * 2 % 5
+    return [a % 5 == 0 for a in A]
 
 
 def test():
