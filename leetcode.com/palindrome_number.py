@@ -1,13 +1,12 @@
+# 9. Palindrome Number
 # https://leetcode.com/problems/palindrome-number/
+
 def isPalindrome(x):
-    y = x
-    n = 0
-    while y > 0:
-        n = n * 10 + y % 10
-        y = y // 10
-    if n == x:
-        return True
-    return False
+    if x < 0:
+        return False
+    y = str(x)[::-1]
+    n = int(y)
+    return n == x
 
 
 if __name__ == '__main__':
