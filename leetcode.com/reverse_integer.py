@@ -1,10 +1,9 @@
+# 7. Reverse Integer
 # https://leetcode.com/problems/reverse-integer/
+
 def reverse(x):
-    y = abs(x)
-    n = 0
-    while y > 0:
-        n = n * 10 + y % 10
-        y = y // 10
+    y = str(abs(x))[::-1]
+    n = int(y)
     if n > 2 ** 31 or x == 0:
         return 0
     n = n * x // abs(x)
