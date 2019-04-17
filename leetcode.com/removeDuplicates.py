@@ -2,15 +2,16 @@
 # https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 
 def removeDuplicate(nums):
-    n = len(nums)
+    if not nums or nums == []:
+        return 0
     i = 1
-    while i < n:
-        if nums[i] == nums[i - 1]:
-            nums.pop(i)
-            n -= 1
-        else:
-            i += 1
-    return len(nums)
+    j = 0
+    while i < len(nums):
+        if nums[i] != nums[j]:
+            j += 1
+            nums[j] = nums[i]
+        i += 1
+    return j + 1
 
 
 def test():
