@@ -6,7 +6,3 @@ def lengthOfLastWord(s):
         return 0
     s = s.strip()
     return len(s.split(' ')[-1])
-
-
-i = '  '
-print(lengthOfLastWord(i))
