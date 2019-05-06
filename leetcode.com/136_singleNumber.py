@@ -11,12 +11,22 @@ def singleNumber(nums):
     return sum_set - sum_not_single_nums
 
 
+# Runtime: 40ms (94.63%)
+# Memory: 14.7 MB (5.05%)
+def singleNumber2(nums):
+    res = 0
+    for num in nums:
+        res ^= num
+        print(res)
+    return res
+
+
 if __name__ == '__main__':
     nums = [2, 2, 1]
-    print(singleNumber(nums))
-
+    print(singleNumber2(nums))
+    print('----')
     nums = [2, 2, 1, 1, 4]
-    print(singleNumber(nums))
-
+    print(singleNumber2(nums))
+    print('----')
     nums = [2, 2, 1, 1, 7, 7, 6, 5, 6]
-    print(singleNumber(nums))
+    print(singleNumber2(nums))
