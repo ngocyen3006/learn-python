@@ -17,7 +17,6 @@ def singleNumber2(nums):
     res = 0
     for num in nums:
         res ^= num
-        print(res)
     return res
 
 
